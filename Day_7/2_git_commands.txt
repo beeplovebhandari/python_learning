@@ -1,6 +1,6 @@
 Setup Git Configuration in Local 
-1. git config --global user.name "beeplovebhandari"
-2. git config --global user.email "bbhandari0304@gmail.com"
+1. git config --global user.name "your_git_user_name" ( eg- namelastname)
+2. git config --global user.email "your_git_email_address" ( eg- name@gmail.com)
 3. To verify; git config --global user.name
               git config --global user.email
 
