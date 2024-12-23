@@ -1,0 +1,15 @@
+1. Each Python file in a python project is a module 
+2. Collection of modules is called a Python Package 
+3. Collection of such packages is called as Python Library
+
+
+Different ways to import in Python 
+1. import <bilt-in_package>/<installed_package>
+    e.g. import json
+2. from <Package> import <module>
+3. from <package>.<module> import <function>/<class>
+4. from <module> import <function>/<class>
+
+5. We can give a different name to the package while importing 
+    e.g. import pandas as pd
+

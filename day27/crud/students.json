@@ -1,0 +1,23 @@
+[
+  {
+    "name": " Jon",
+    "address": "KTM",
+    "phone": 9898778979
+  },
+  {
+    "name": " Ram",
+    "address": "BKT",
+    "phone": 98989989
+  },
+  {
+    "name": " Shyam",
+    "address": "PKR",
+    "phone": 9898999889
+  },
+  {
+    "id": "1",
+    "name": "Ram",
+    "age": "19",
+    "address": "Bkt"
+  }
+]

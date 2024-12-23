@@ -1,17 +1,20 @@
 [
   {
-    "name": " Jon",
-    "address": "KTM",
-    "phone": 9898778979
+    "id": "2",
+    "name": "hari",
+    "age": "90",
+    "address": "adk"
   },
   {
-    "name": " Ram",
-    "address": "BKT",
-    "phone": 98989989
+    "id": "1",
+    "name": "Ram",
+    "age": "19",
+    "address": "Bkt"
   },
   {
-    "name": " Shyam",
-    "address": "PKR",
-    "phone": 9898999889
+    "id": "3",
+    "name": "geeta",
+    "age": "73",
+    "address": "pkr"
   }
 ]
