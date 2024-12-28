@@ -1,10 +1,10 @@
 from estd_connection import estd_connection
 
-def delete_student():
+def delete_student(student_id):
     cursor = estd_connection()
     id = input("Enter Student ID ")
     sql = f"""
-    DELETE FROM INFORMATION WHERE ID='{id}'
+    DELETE FROM INFORMATION WHERE ID='{student_id}'
     """
     cursor.execute(sql)
     print("Student Deleted Successfully !!")

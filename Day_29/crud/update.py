@@ -1,14 +1,14 @@
 from estd_connection import estd_connection
 
 
-def update_student(id):
+def update_student(student_id):
     cursor = estd_connection()
-    to_change = input("Enter the field to change ")
-    changed_value = input("Enter the new value ")
+    to_change = input("Enter the data you want to change ")
+    changed_value = input(f"Enter new {to_change} ")
 
 
     sql = f"""
-    UPDATE INFORMATION SET {to_change}='{changed_value}' WHERE ID='{id}'
+    UPDATE INFORMATION SET {to_change}='{changed_value}' WHERE ID='{student_id}'
     """
 
     cursor.execute(sql)

@@ -28,13 +28,11 @@ def inquiry():
 
     elif selection == "u":
         student_id = input("Enter the student id ")
-        update_student(student_id)
         repeat = update_student(student_id)
         inquiry() if repeat else exit_message()
 
     elif selection == "d":
         student_id = input("Enter the student id You want to delete ")
-        delete_student(student_id)
         repeat = delete_student(student_id)
         inquiry() if repeat else exit_message()
     else:
