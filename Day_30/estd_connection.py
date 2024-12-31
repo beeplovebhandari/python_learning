@@ -1,3 +1,6 @@
+# If we want to connect database from a program (Python, Javascript)then we need a database connector
+# Database connector connects your program with Database mysqlclient, psycopg2 etc.. are the db connectors
+
 
 def estd_connection():
     import psycopg2
